@@ -1,0 +1,183 @@
+h1 {
+    background: rgb(255, 123, 0);
+    color: whitesmoke;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+    color:rgb(255, 123, 0);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+position: sticky;
+}
+
+button {
+    Background: yellow;
+    color: black;
+    box-shadow: 2px 4px;
+    height: 30px;
+    padding: 10px;
+    margin: 5px;
+    border: 50px;
+    width: 250px;
+position: sticky;
+}
+
+body {
+    background-color: lightblue;
+}
+
+.box {
+    background-color: whitesmoke;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 800px;
+    border-style: solid;
+    border-color: pink;
+    border-width: 15px;
+    padding: 25px;
+    margin: 10px;
+ 
+}
+div.box {
+    left: 1000px;
+    bottom: 500px;
+}
+
+#color {
+    background-color: lavender;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 15px;
+}
+
+
+p {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#image {  
+            height: 400px;
+            width: 575px;
+            border-radius: 20%;
+            position: static;
+}
+
+.container {
+background-color: lightgreen;
+padding: 5px;
+margin: 5px;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+button.pseudo:hover {
+    background-color: greenyellow;
+}
+
+.container p {
+    color: darkgrey;
+   
+}
+
+#color p {
+    color: darkmagenta;
+}
+
+.box li {
+    background-color: lightgoldenrodyellow;
+}
+
+.box ul {
+background-color: lightgoldenrodyellow;
+}
+
+h1 {
+    animation-name: rainbow; 
+    animation-duration: 3s;
+}
+@keyframes rainbow {
+    0% {
+        background-color: yellow;
+      }
+      50% {
+        background-color: orange;
+      }
+      100% {
+        background-color: red;
+      }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+a.pseudo:visited {
+    color:yellow;
+}
+a.pseudo:hover {
+    color:red;
+}
+
+a.pseudo:active {
+    color:green;
+}
+
+div.position {
+    position: absolute;
+left: 500px;
+right: 400px;
+top: 800px;
+}
+
+nav.sticky {
+    position: sticky;
+    top: 0;
+    padding: 3px;
+background-color: greenyellow;
+border: 1px solid gray;
+}
+
+.box {
+    background-color:lightgray;
+    width: 400px; 
+    border: 15px solid yellowgreen;
+    padding: 25px;
+    margin: 5px;
+}
+
+p {background-color: yellowgreen;
+color: whitesmoke;
+margin: 0px 50px 0px 50px}
+
+/*
+div {
+    background:red; 
+}
+
+span {
+    background:yellow;
+
+display: inline-block;
+}
+*/
