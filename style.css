@@ -1,3 +1,119 @@
+body {
+    background-color: rgb(217, 232, 247);
+    font-family: 'Solway', serif;
+}
+h1 {font-family: 'Lato', sans-serif;
+    text-align: center;
+    letter-spacing: 10px;
+    
+    
+}
+nav {
+    text-align: center;
+    background-color:aliceblue;
+    color: black;
+    padding: 30px;
+    word-spacing:90px;
+    text-align: center;
+}
+.box {
+    background-color: rgb(252, 250, 249);
+    width: 50%;
+    padding: 25px;
+    margin: auto;
+    border-style: solid;
+    border-width: 5px;
+    border-color:aliceblue;
+}
+
+
+img {
+    border: 10px solid;
+    border-color: aliceblue;
+   margin:auto;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+.box2 {
+    background-color: rgb(252, 250, 249);
+    margin: 10px;
+    padding: 10px; 
+    margin: auto;
+    text-align:center;
+    width: 30%;
+    border-style:solid;
+    border-color: aliceblue;
+    border-width: 5px;
+}
+div.center {
+    margin: auto;
+}
+h4 {
+    text-align: center;
+}
+.cred {
+    text-align: center;
+}
+a:link {
+    color: black;
+}
+a:visited {
+    color:rgb(73, 100, 117);
+}
+a:hover {
+    color:rgb(80, 132, 196);
+}
+.left {
+    margin-left: 50%;
+}
+.right {
+    right: 250px;
+}
+button {
+    background:rgb(252, 250, 249);
+    color:rgb(80, 132, 196);
+    box-shadow: rgb(73, 100, 117) 2px 4px;
+    height: 30px;
+    padding: 10px;
+    margin: 5px;
+    border: 50px;
+    width: 150px;
+    border-radius: 6px;
+position: sticky;
+font-family: 'Solway', serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 h1 {
     background: rgb(255, 123, 0);
     color: whitesmoke;
@@ -26,7 +142,7 @@ position: sticky;
 }
 
 body {
-    background-color: lightblue;
+    background-color: ;
 }
 
 .box {
